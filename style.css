@@ -1,0 +1,99 @@
+body {  
+  background-color: #F7F9FC; 
+  font-family: 'Lora', serif;
+  font-size: 17px;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  color: #323850;
+  font-size: 32px;
+  font-weight: 900;
+}
+
+h2 {
+  color: #7ECE90;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+
+#main-container {
+  width: 700px; 
+  margin: 40px auto; 
+}
+
+
+.card {
+  background-color: white;
+  padding: 40px;
+  margin: 20px 0;
+  text-align: center;
+  border-radius: 4px; 
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1); 
+
+/
+.card:hover {
+  box-shadow: 0px 15px 35px rgba(0,0,0,0.15);
+  transform: translateY(-2px);
+  transition: all 0.3s ease;
+}
+
+/
+
+/* Photo de profil ronde */
+.img-circle {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+/
+.btn-blue {
+  background-color: #6B72E1;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 4px;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-blue:hover {
+  background-color: #555bc7;
+  color: white;
+}
+
+/* Liste horizontale des réseaux sociaux */
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 20px;
+}
+
+.list-inline li {
+  display: inline-block; 
+  padding: 0 15px;
+}
+
+/
+  #main-container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  #main-container {
+    width: 90%; 
+  }
+}
